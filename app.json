@@ -13,9 +13,11 @@
       "backgroundColor": "#0f172a"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.devavi09.aistudyassistant"
     },
     "android": {
+      "package": "com.devavi09.aistudyassistant",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0f172a"
@@ -27,6 +29,12 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "18b94270-2ad1-4f58-9775-850cbfdd3a4f"
+      }
+    }
   }
 }
